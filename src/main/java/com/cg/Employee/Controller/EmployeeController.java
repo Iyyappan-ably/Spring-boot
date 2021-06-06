@@ -15,7 +15,7 @@ public class EmployeeController {
 	@GetMapping("/getEmployeeDetails")
 	public ResponseEntity<Employee> getData() {
 		
-		emp = new Employee("lara",21);
+		emp = new Employee("linku",21);
 		return new ResponseEntity<>(emp,HttpStatus.OK);
 		
 		
